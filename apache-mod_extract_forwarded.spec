@@ -6,7 +6,7 @@
 Summary:	Extract real source IP for forwarded HTTP requests
 Name:		apache-%{mod_name}
 Version:	2.0.2
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.openinfo.co.uk/apache/
@@ -69,5 +69,3 @@ fi
 %doc INSTALL README
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
-
-

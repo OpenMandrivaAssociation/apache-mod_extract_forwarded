@@ -21,6 +21,7 @@ Requires:	apache-conf >= 2.2.0
 Requires:	apache >= 2.2.0
 Requires:	apache-mod_proxy >= 2.2.0 
 BuildRequires:	apache-devel >= 2.2.0
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_extract_forwarded hooks itself into Apache's header parsing phase and looks

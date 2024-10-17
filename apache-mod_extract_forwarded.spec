@@ -9,7 +9,7 @@ Version:	2.0.2
 Release:	%mkrel 12
 Group:		System/Servers
 License:	Apache License
-URL:		http://www.openinfo.co.uk/apache/
+URL:		https://www.openinfo.co.uk/apache/
 Source0:	http://www.openinfo.co.uk/apache/extract_forwarded-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Requires(pre): rpm-helper
